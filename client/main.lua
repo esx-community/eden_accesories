@@ -415,7 +415,12 @@ end)
 
 
 
-
+AddEventHandler('playerSpawned', function()
+  used = 0
+  used2 = 0
+  used3 = 0
+  used4 = 0
+end)
 
 
 
