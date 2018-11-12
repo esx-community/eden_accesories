@@ -3,9 +3,9 @@ ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 
-ESX.RegisterUsableItem('silencieux', function(source)
+ESX.RegisterUsableItem('silencer', function(source)
     local xPlayer = ESX.GetPlayerFromId(source)	
-    TriggerClientEvent('eden_accesories:silencieux', source)
+    TriggerClientEvent('eden_accesories:silencer', source)
 
 end)
 
